@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/myc.dir/main.c.o"
+  "CMakeFiles/myc.dir/src/day1/Test1.c.o"
   "myc"
   "myc.pdb"
 )

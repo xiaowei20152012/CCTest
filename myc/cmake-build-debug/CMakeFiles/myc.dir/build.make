@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wei.li/Documents/MyDocuments/CCTest/myc
+CMAKE_SOURCE_DIR = /Users/wei.li/Documents/learn/CCTest/myc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wei.li/Documents/MyDocuments/CCTest/myc/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/myc.dir/depend.make
@@ -59,28 +59,43 @@ include CMakeFiles/myc.dir/flags.make
 
 CMakeFiles/myc.dir/main.c.o: CMakeFiles/myc.dir/flags.make
 CMakeFiles/myc.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wei.li/Documents/MyDocuments/CCTest/myc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/myc.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/myc.dir/main.c.o   -c /Users/wei.li/Documents/MyDocuments/CCTest/myc/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/myc.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/myc.dir/main.c.o   -c /Users/wei.li/Documents/learn/CCTest/myc/main.c
 
 CMakeFiles/myc.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myc.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wei.li/Documents/MyDocuments/CCTest/myc/main.c > CMakeFiles/myc.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wei.li/Documents/learn/CCTest/myc/main.c > CMakeFiles/myc.dir/main.c.i
 
 CMakeFiles/myc.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myc.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wei.li/Documents/MyDocuments/CCTest/myc/main.c -o CMakeFiles/myc.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wei.li/Documents/learn/CCTest/myc/main.c -o CMakeFiles/myc.dir/main.c.s
+
+CMakeFiles/myc.dir/src/day1/Test1.c.o: CMakeFiles/myc.dir/flags.make
+CMakeFiles/myc.dir/src/day1/Test1.c.o: ../src/day1/Test1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/myc.dir/src/day1/Test1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/myc.dir/src/day1/Test1.c.o   -c /Users/wei.li/Documents/learn/CCTest/myc/src/day1/Test1.c
+
+CMakeFiles/myc.dir/src/day1/Test1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myc.dir/src/day1/Test1.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wei.li/Documents/learn/CCTest/myc/src/day1/Test1.c > CMakeFiles/myc.dir/src/day1/Test1.c.i
+
+CMakeFiles/myc.dir/src/day1/Test1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myc.dir/src/day1/Test1.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wei.li/Documents/learn/CCTest/myc/src/day1/Test1.c -o CMakeFiles/myc.dir/src/day1/Test1.c.s
 
 # Object files for target myc
 myc_OBJECTS = \
-"CMakeFiles/myc.dir/main.c.o"
+"CMakeFiles/myc.dir/main.c.o" \
+"CMakeFiles/myc.dir/src/day1/Test1.c.o"
 
 # External object files for target myc
 myc_EXTERNAL_OBJECTS =
 
 myc: CMakeFiles/myc.dir/main.c.o
+myc: CMakeFiles/myc.dir/src/day1/Test1.c.o
 myc: CMakeFiles/myc.dir/build.make
 myc: CMakeFiles/myc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wei.li/Documents/MyDocuments/CCTest/myc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable myc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable myc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +108,6 @@ CMakeFiles/myc.dir/clean:
 .PHONY : CMakeFiles/myc.dir/clean
 
 CMakeFiles/myc.dir/depend:
-	cd /Users/wei.li/Documents/MyDocuments/CCTest/myc/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wei.li/Documents/MyDocuments/CCTest/myc /Users/wei.li/Documents/MyDocuments/CCTest/myc /Users/wei.li/Documents/MyDocuments/CCTest/myc/cmake-build-debug /Users/wei.li/Documents/MyDocuments/CCTest/myc/cmake-build-debug /Users/wei.li/Documents/MyDocuments/CCTest/myc/cmake-build-debug/CMakeFiles/myc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wei.li/Documents/learn/CCTest/myc /Users/wei.li/Documents/learn/CCTest/myc /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles/myc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/myc.dir/depend
 

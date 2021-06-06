@@ -3,4 +3,4 @@ project(myc C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(myc main.c)
+add_executable(myc main.c src/day1/Test.h src/day1/Test1.c)

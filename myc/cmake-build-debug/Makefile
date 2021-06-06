@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wei.li/Documents/MyDocuments/CCTest/myc
+CMAKE_SOURCE_DIR = /Users/wei.li/Documents/learn/CCTest/myc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wei.li/Documents/MyDocuments/CCTest/myc/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/MyDocuments/CCTest/myc/cmake-build-debug/CMakeFiles /Users/wei.li/Documents/MyDocuments/CCTest/myc/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/MyDocuments/CCTest/myc/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/main.c.s
 .PHONY : main.c.s
 
+src/day1/Test1.o: src/day1/Test1.c.o
+
+.PHONY : src/day1/Test1.o
+
+# target to build an object file
+src/day1/Test1.c.o:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/day1/Test1.c.o
+.PHONY : src/day1/Test1.c.o
+
+src/day1/Test1.i: src/day1/Test1.c.i
+
+.PHONY : src/day1/Test1.i
+
+# target to preprocess a source file
+src/day1/Test1.c.i:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/day1/Test1.c.i
+.PHONY : src/day1/Test1.c.i
+
+src/day1/Test1.s: src/day1/Test1.c.s
+
+.PHONY : src/day1/Test1.s
+
+# target to generate assembly for a file
+src/day1/Test1.c.s:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/day1/Test1.c.s
+.PHONY : src/day1/Test1.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/day1/Test1.o"
+	@echo "... src/day1/Test1.i"
+	@echo "... src/day1/Test1.s"
 .PHONY : help
 
 
