@@ -123,59 +123,32 @@ myc/fast:
 	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/build
 .PHONY : myc/fast
 
-main.o: main.c.o
+main.o: main.cpp.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/main.c.o
-.PHONY : main.c.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-main.i: main.c.i
+main.i: main.cpp.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/main.c.s
-.PHONY : main.c.s
-
-src/day1/Test1.o: src/day1/Test1.c.o
-
-.PHONY : src/day1/Test1.o
-
-# target to build an object file
-src/day1/Test1.c.o:
-	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/day1/Test1.c.o
-.PHONY : src/day1/Test1.c.o
-
-src/day1/Test1.i: src/day1/Test1.c.i
-
-.PHONY : src/day1/Test1.i
-
-# target to preprocess a source file
-src/day1/Test1.c.i:
-	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/day1/Test1.c.i
-.PHONY : src/day1/Test1.c.i
-
-src/day1/Test1.s: src/day1/Test1.c.s
-
-.PHONY : src/day1/Test1.s
-
-# target to generate assembly for a file
-src/day1/Test1.c.s:
-	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/src/day1/Test1.c.s
-.PHONY : src/day1/Test1.c.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -189,9 +162,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/day1/Test1.o"
-	@echo "... src/day1/Test1.i"
-	@echo "... src/day1/Test1.s"
 .PHONY : help
 
 

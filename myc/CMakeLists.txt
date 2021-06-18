@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
-project(myc C)
+project(myc)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 11)
 
-add_executable(myc main.c src/day1/Test.h src/day1/Test1.c)
+add_executable(myc main.cpp)

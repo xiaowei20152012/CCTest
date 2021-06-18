@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/myc.dir/all:
 	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/depend
 	$(MAKE) -f CMakeFiles/myc.dir/build.make CMakeFiles/myc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target myc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target myc"
 .PHONY : CMakeFiles/myc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/myc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/myc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/myc.dir/rule
