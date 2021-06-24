@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/wei.li/Documents/learn/CCTest/day1_static/Apple.cpp">
+			<Option target="day1_static"/>
+		</Unit>
+		<Unit filename="/Users/wei.li/Documents/learn/CCTest/day1_static/Apple.h">
+			<Option target="day1_static"/>
+		</Unit>
 		<Unit filename="/Users/wei.li/Documents/learn/CCTest/day1_static/main.cpp">
 			<Option target="day1_static"/>
 		</Unit>

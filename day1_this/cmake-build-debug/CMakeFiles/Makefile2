@@ -44,21 +44,21 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wei.li/Documents/learn/CCTest/day1_static
+CMAKE_SOURCE_DIR = /Users/wei.li/Documents/learn/CCTest/day1_this
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wei.li/Documents/learn/CCTest/day1_static/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/day1_static.dir/all
+all: CMakeFiles/day1_this.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/day1_static.dir/clean
+clean: CMakeFiles/day1_this.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/day1_static.dir
+# Target rules for target CMakeFiles/day1_this.dir
 
 # All Build rule for target.
-CMakeFiles/day1_static.dir/all:
-	$(MAKE) -f CMakeFiles/day1_static.dir/build.make CMakeFiles/day1_static.dir/depend
-	$(MAKE) -f CMakeFiles/day1_static.dir/build.make CMakeFiles/day1_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wei.li/Documents/learn/CCTest/day1_static/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target day1_static"
-.PHONY : CMakeFiles/day1_static.dir/all
+CMakeFiles/day1_this.dir/all:
+	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/depend
+	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target day1_this"
+.PHONY : CMakeFiles/day1_this.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/day1_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day1_static/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/day1_static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day1_static/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/day1_static.dir/rule
+CMakeFiles/day1_this.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/day1_this.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/day1_this.dir/rule
 
 # Convenience name for target.
-day1_static: CMakeFiles/day1_static.dir/rule
+day1_this: CMakeFiles/day1_this.dir/rule
 
-.PHONY : day1_static
+.PHONY : day1_this
 
 # clean rule for target.
-CMakeFiles/day1_static.dir/clean:
-	$(MAKE) -f CMakeFiles/day1_static.dir/build.make CMakeFiles/day1_static.dir/clean
-.PHONY : CMakeFiles/day1_static.dir/clean
+CMakeFiles/day1_this.dir/clean:
+	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/clean
+.PHONY : CMakeFiles/day1_this.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

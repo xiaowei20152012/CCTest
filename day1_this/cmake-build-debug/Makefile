@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wei.li/Documents/learn/CCTest/day1_static
+CMAKE_SOURCE_DIR = /Users/wei.li/Documents/learn/CCTest/day1_this
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wei.li/Documents/learn/CCTest/day1_static/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day1_static/cmake-build-debug/CMakeFiles /Users/wei.li/Documents/learn/CCTest/day1_static/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug/CMakeFiles /Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day1_static/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named day1_static
+# Target rules for targets named day1_this
 
 # Build rule for target.
-day1_static: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 day1_static
-.PHONY : day1_static
+day1_this: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 day1_this
+.PHONY : day1_this
 
 # fast build rule for target.
-day1_static/fast:
-	$(MAKE) -f CMakeFiles/day1_static.dir/build.make CMakeFiles/day1_static.dir/build
-.PHONY : day1_static/fast
-
-Apple.o: Apple.cpp.o
-
-.PHONY : Apple.o
-
-# target to build an object file
-Apple.cpp.o:
-	$(MAKE) -f CMakeFiles/day1_static.dir/build.make CMakeFiles/day1_static.dir/Apple.cpp.o
-.PHONY : Apple.cpp.o
-
-Apple.i: Apple.cpp.i
-
-.PHONY : Apple.i
-
-# target to preprocess a source file
-Apple.cpp.i:
-	$(MAKE) -f CMakeFiles/day1_static.dir/build.make CMakeFiles/day1_static.dir/Apple.cpp.i
-.PHONY : Apple.cpp.i
-
-Apple.s: Apple.cpp.s
-
-.PHONY : Apple.s
-
-# target to generate assembly for a file
-Apple.cpp.s:
-	$(MAKE) -f CMakeFiles/day1_static.dir/build.make CMakeFiles/day1_static.dir/Apple.cpp.s
-.PHONY : Apple.cpp.s
+day1_this/fast:
+	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/build
+.PHONY : day1_this/fast
 
 main.o: main.cpp.o
 
@@ -156,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/day1_static.dir/build.make CMakeFiles/day1_static.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/day1_static.dir/build.make CMakeFiles/day1_static.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/day1_static.dir/build.make CMakeFiles/day1_static.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -185,10 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... day1_static"
-	@echo "... Apple.o"
-	@echo "... Apple.i"
-	@echo "... Apple.s"
+	@echo "... day1_this"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wei.li/Documents/learn/CCTest/day1_static/Apple.h
+iostream
+-
+
+/Users/wei.li/Documents/learn/CCTest/day1_static/main.cpp
+iostream
+-
+Apple.h
+/Users/wei.li/Documents/learn/CCTest/day1_static/Apple.h
+

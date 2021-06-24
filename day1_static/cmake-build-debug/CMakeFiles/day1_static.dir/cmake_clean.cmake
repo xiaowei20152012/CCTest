@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/day1_static.dir/Apple.cpp.o"
   "CMakeFiles/day1_static.dir/main.cpp.o"
   "day1_static"
   "day1_static.pdb"
