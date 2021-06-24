@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/day1_const.dir/main.cpp.o CMakeFiles/day1_const.dir/MyC.cpp.o CMakeFiles/day1_const.dir/Mycc.c.o CMakeFiles/day1_const.dir/Apple.cpp.o  -o day1_const 

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wei.li/Documents/learn/CCTest/day1_const/Apple.cpp
+Apple.h
+/Users/wei.li/Documents/learn/CCTest/day1_const/Apple.h
+iostream
+-
+
+/Users/wei.li/Documents/learn/CCTest/day1_const/Apple.h
+
+/Users/wei.li/Documents/learn/CCTest/day1_const/Myc.h
+
+/Users/wei.li/Documents/learn/CCTest/day1_const/main.cpp
+iostream
+-
+Myc.h
+/Users/wei.li/Documents/learn/CCTest/day1_const/Myc.h
+Apple.h
+/Users/wei.li/Documents/learn/CCTest/day1_const/Apple.h
+
