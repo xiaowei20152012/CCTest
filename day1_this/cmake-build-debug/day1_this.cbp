@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/wei.li/Documents/learn/CCTest/day1_this/Person.cpp">
+			<Option target="day1_this"/>
+		</Unit>
+		<Unit filename="/Users/wei.li/Documents/learn/CCTest/day1_this/Person.h">
+			<Option target="day1_this"/>
+		</Unit>
 		<Unit filename="/Users/wei.li/Documents/learn/CCTest/day1_this/main.cpp">
 			<Option target="day1_this"/>
 		</Unit>

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/wei.li/Documents/learn/CCTest/day1_this/Person.cpp" "/Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug/CMakeFiles/day1_this.dir/Person.cpp.o"
-  "/Users/wei.li/Documents/learn/CCTest/day1_this/main.cpp" "/Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug/CMakeFiles/day1_this.dir/main.cpp.o"
+  "/Users/wei.li/Documents/learn/CCTest/day2_inline/Test.cpp" "/Users/wei.li/Documents/learn/CCTest/day2_inline/cmake-build-debug/CMakeFiles/day2_inline.dir/Test.cpp.o"
+  "/Users/wei.li/Documents/learn/CCTest/day2_inline/main.cpp" "/Users/wei.li/Documents/learn/CCTest/day2_inline/cmake-build-debug/CMakeFiles/day2_inline.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

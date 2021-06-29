@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wei.li/Documents/learn/CCTest/day1_this
+CMAKE_SOURCE_DIR = /Users/wei.li/Documents/learn/CCTest/day2_inline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wei.li/Documents/learn/CCTest/day2_inline/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug/CMakeFiles /Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day2_inline/cmake-build-debug/CMakeFiles /Users/wei.li/Documents/learn/CCTest/day2_inline/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day1_this/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei.li/Documents/learn/CCTest/day2_inline/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named day1_this
+# Target rules for targets named day2_inline
 
 # Build rule for target.
-day1_this: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 day1_this
-.PHONY : day1_this
+day2_inline: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 day2_inline
+.PHONY : day2_inline
 
 # fast build rule for target.
-day1_this/fast:
-	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/build
-.PHONY : day1_this/fast
+day2_inline/fast:
+	$(MAKE) -f CMakeFiles/day2_inline.dir/build.make CMakeFiles/day2_inline.dir/build
+.PHONY : day2_inline/fast
 
-Person.o: Person.cpp.o
+Test.o: Test.cpp.o
 
-.PHONY : Person.o
+.PHONY : Test.o
 
 # target to build an object file
-Person.cpp.o:
-	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/Person.cpp.o
-.PHONY : Person.cpp.o
+Test.cpp.o:
+	$(MAKE) -f CMakeFiles/day2_inline.dir/build.make CMakeFiles/day2_inline.dir/Test.cpp.o
+.PHONY : Test.cpp.o
 
-Person.i: Person.cpp.i
+Test.i: Test.cpp.i
 
-.PHONY : Person.i
+.PHONY : Test.i
 
 # target to preprocess a source file
-Person.cpp.i:
-	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/Person.cpp.i
-.PHONY : Person.cpp.i
+Test.cpp.i:
+	$(MAKE) -f CMakeFiles/day2_inline.dir/build.make CMakeFiles/day2_inline.dir/Test.cpp.i
+.PHONY : Test.cpp.i
 
-Person.s: Person.cpp.s
+Test.s: Test.cpp.s
 
-.PHONY : Person.s
+.PHONY : Test.s
 
 # target to generate assembly for a file
-Person.cpp.s:
-	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/Person.cpp.s
-.PHONY : Person.cpp.s
+Test.cpp.s:
+	$(MAKE) -f CMakeFiles/day2_inline.dir/build.make CMakeFiles/day2_inline.dir/Test.cpp.s
+.PHONY : Test.cpp.s
 
 main.o: main.cpp.o
 
@@ -156,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/day2_inline.dir/build.make CMakeFiles/day2_inline.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/day2_inline.dir/build.make CMakeFiles/day2_inline.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/day1_this.dir/build.make CMakeFiles/day1_this.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/day2_inline.dir/build.make CMakeFiles/day2_inline.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -185,10 +185,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... day1_this"
-	@echo "... Person.o"
-	@echo "... Person.i"
-	@echo "... Person.s"
+	@echo "... day2_inline"
+	@echo "... Test.o"
+	@echo "... Test.i"
+	@echo "... Test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -52,5 +52,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/day1_this.dir/DependInfo.cmake"
+  "CMakeFiles/day2_inline.dir/DependInfo.cmake"
   )
